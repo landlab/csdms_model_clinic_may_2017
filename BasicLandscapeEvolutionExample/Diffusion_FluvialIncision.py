@@ -108,7 +108,7 @@ sp = FastscapeEroder(mg, K_sp=0.00005, m_sp=0.5, n_sp=1.0, threshold_sp=0.,
                     rainfall_intensity=1.)
                     
 k_d = 0.5
-lin_diffuse = LinearDiffuser(mg, linear_diffusivity=k_d, deposit=False)
+lin_diffuse = LinearDiffuser(mg, linear_diffusivity=k_d)
 
 
 # * The calculations are all done in the time loop below.
